@@ -1,0 +1,7 @@
+<li><p>2025-07-28 17:07:44 - <b style='color : red'>ezequiel</b> - <b>Hola estoy haciendo un test luego de terminar el trabajo
+
+                </b></p></li><li><p>2025-07-28 17:08:16 - <b style='color : red'>ezequiel</b> - <b>Corregí el formato de envío de mensaje y ademas se agregaron validaciones para saber si existe el archivo e informar al usuario
+</b></p></li><li><p>2025-07-28 17:13:17 - <b style='color : red'>ezequiel</b> - <b>
+                </b></p></li><li><p>2025-07-28 17:13:34 - <b style='color : red'>ezequiel</b> - <b>
+                </b></p></li><li><p>2025-07-28 17:13:49 - <b style='color : red'>ezequiel</b> - <b>
+                </b></p></li>
