@@ -26,3 +26,8 @@
 2025-07-28 12:08:23 - Inicio de sesion del usuario jeremias, transcurrieron 0 dias, 0 horas, 2 minutos y 20 segundos hasta cerrar sesion 
 2025-07-28 12:10:45 - Inicio de sesion del usuario ezequiel, transcurrieron 0 dias, 0 horas, 5 minutos y 57 segundos hasta cerrar sesion 
 2025-07-28 12:16:47 - Inicio de sesion del usuario omonte, transcurrieron 0 dias, 0 horas, 0 minutos y 9 segundos hasta cerrar sesion 
+2025-08-07 23:40:51 - Inicio de sesion del usuario ezequiel, transcurrieron 0 dias, 0 horas, 8 minutos y 22 segundos hasta cerrar sesion 
+2025-08-07 23:49:17 - Inicio de sesion del usuario jeremias, transcurrieron 0 dias, 0 horas, 3 minutos y 49 segundos hasta cerrar sesion 
+2025-08-07 23:53:08 - Inicio de sesion del usuario ezequiel, transcurrieron 0 dias, 0 horas, 0 minutos y 19 segundos hasta cerrar sesion 
+2025-08-07 23:53:30 - Inicio de sesion del usuario omonte, transcurrieron 0 dias, 0 horas, 0 minutos y 3 segundos hasta cerrar sesion 
+2025-08-07 23:53:37 - Inicio de sesion del usuario jeremias, transcurrieron 0 dias, 0 horas, 0 minutos y 13 segundos hasta cerrar sesion 

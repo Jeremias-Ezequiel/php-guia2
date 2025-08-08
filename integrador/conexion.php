@@ -2,11 +2,11 @@
 
 function conectar()
 {
-    $serv = "192.168.0.27";
+    $serv = "localhost";
     $usr = "root";
     $pss = "Abcdef2020";
     $bd = "jeremiasOmonteGuia2";
-    $port = 3307;
+    $port = 3306;
     //el nombre de la base de datos debe ser nombreApellidoGuia2 ej: juanPerezGuia2
     //No olvidar adjuntar el archivo SQL con el codigo de creación original (NO EXPORTAR)
 

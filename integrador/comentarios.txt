@@ -4,4 +4,5 @@
 </b></p></li><li><p>2025-07-28 17:13:17 - <b style='color : red'>ezequiel</b> - <b>
                 </b></p></li><li><p>2025-07-28 17:13:34 - <b style='color : red'>ezequiel</b> - <b>
                 </b></p></li><li><p>2025-07-28 17:13:49 - <b style='color : red'>ezequiel</b> - <b>
+                </b></p></li><li><p>2025-08-08 02:53:24 - <b style='color : red'>ezequiel</b> - <b>Nuevo test, estoy usando CachyOS
                 </b></p></li>
