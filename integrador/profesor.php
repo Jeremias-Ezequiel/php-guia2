@@ -35,6 +35,14 @@ $user = $_SESSION['usuario'];
             text-decoration: none;
             color: black;
         }
+        li{
+            list-style: none;
+            margin:10px;
+        }
+        button{
+            padding:10px;
+            cursor:pointer;
+        }
     </style>
 </head>
 
@@ -49,7 +57,7 @@ $user = $_SESSION['usuario'];
     </header>
     <main>
         <div>
-            <ul>
+            <ul style="display:flex;justify-content:space-around">
                 <li><a href="../ejercicios/ejercicio1.php"><button>Ejercicio 1</button></a></li>
                 <li><a href="../ejercicios/ejercicio2.php"><button>Ejercicio 2</button></a></li>
                 <li><a href="../ejercicios/ejercicio3.php"><button>Ejercicio 3</button></a></li>

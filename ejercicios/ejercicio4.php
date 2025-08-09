@@ -18,10 +18,11 @@ if ($_SESSION['rol'] != '3') {
     <div>
         <a href="../integrador/profesor.php"><button>Volver</button></a>
     </div>
-    <h2>Creación de formas geométricas</h2>
+    <h2 style="text-align:center;">Creación de formas geométricas</h2>
+    <section style="display: flex; justify-content:center; align-items:center;padding:5px;">
     <form method="get">
         <label for="base">Base:</label>
-        <input type="number" name="base" required min="1" max="70"
+        <input type="number" name="base" required min="1" max="70">
             <label for="colorBorde">Color de borde</label>
         <input type="color" name="colorBorde" required>
         <label for="colorFondo">Color de fondo</label>
@@ -34,7 +35,9 @@ if ($_SESSION['rol'] != '3') {
         </select>
         <button type="submit" name="crear">Crear forma</button>
     </form>
+    </section>
 
+    <div style="display: flex; justify-content: center; align-items: center;flex-direction: column;">
     <?php
     if (isset($_GET['crear'])) {
         $base = $_GET['base'];
@@ -63,7 +66,9 @@ if ($_SESSION['rol'] != '3') {
                 break;
         }
     }
-
+    ?>
+    </div>
+    <?php
     function dibujarCuadrado($base, $borde, $fondo)
     {
         for ($i = 0; $i < $base; $i++) {

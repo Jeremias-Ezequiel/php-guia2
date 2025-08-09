@@ -18,8 +18,8 @@ if ($_SESSION['rol'] != '3') {
     <div>
         <a href="../integrador/profesor.php"><button>Volver</button></a>
     </div>
-    <h2>Tablas</h2>
-
+    <h2 style="text-align:center;">Tablas</h2>
+    <section style="display:flex; justify-content:center; align-items:center;">
     <form>
         <label for="columnas">Columnas:</label>
         <input type="number" autofocus id="columnas" name="columnas" required>
@@ -43,6 +43,7 @@ if ($_SESSION['rol'] != '3') {
         <input type="color" name="color-fondo" required>
         <button name="crear" type="submit">Crear</button>
     </form>
+    </section>
 
     <?php
     if (isset($_GET['crear'])) {

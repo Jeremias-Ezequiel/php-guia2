@@ -88,7 +88,7 @@ if (isset($_GET['rol'])) {
 <body>
     <main>
         <section class="contenedor-login">
-            <form action="verificacion.php" class="formulario-login" method="post">
+            <form action="integrador/verificacion.php" class="formulario-login" method="post">
                 <label for="usuario">Usuario:</label>
                 <input type="text" autofocus name="usuario" id="usuario" placeholder="Ingrese su usuario.." value="<?= $usuario ?>" required>
                 <br>
@@ -107,7 +107,7 @@ if (isset($_GET['rol'])) {
             ?>
         </section>
 
-
+        <h3 style="text-align : center;">Haz clic 2 o 3 veces hasta que aparezca el usuario y contraseña en el formulario</h3>
         <ul>
             <li class="user-list" class="user-list">
                 <a href="?rol=admin">

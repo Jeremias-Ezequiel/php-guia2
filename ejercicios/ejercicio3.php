@@ -18,7 +18,8 @@ if ($_SESSION['rol'] != '3') {
     <div>
         <a href="../integrador/profesor.php"><button>Volver</button></a>
     </div>
-    <h2>Grupos de trabajo</h2>
+    <h2 style="text-align:center;">Grupos de trabajo</h2>
+    <section style="display:flex; justify-content:center;align-items:center;flex-direction:column;">
     <form method="get">
         <div>
             <label for="cantAlu">Cantidad de alumnos:</label>
@@ -30,7 +31,6 @@ if ($_SESSION['rol'] != '3') {
         </div>
         <button type="submit" name="calcular">Calcular grupos</button>
     </form>
-
     <?php
     if (isset($_GET['calcular'])) {
         $cantAlu = $_GET['cantAlu'];
@@ -46,6 +46,9 @@ if ($_SESSION['rol'] != '3') {
         echo "<p>Se pueden armar $grupos de $alumnosPorGrupo y quedan $libres alumnos por ubicar</p>";
     }
     ?>
+    </section>
+
+    
 </body>
 
 </html>

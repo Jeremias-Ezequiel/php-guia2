@@ -26,9 +26,9 @@ if (isset($_GET['cerrar']) && isset($_SESSION['tiempoInicio'])) {
 
     session_unset();
     session_destroy();
-    header('Location: index.php');
+    header('Location: ../index.php');
     exit();
 } else {
-    header('Location: index.php');
+    header('Location: ../index.php');
     exit();
 }
